@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "ex5.dtd">
+<cataleg_musica>
+    <llista_artistes>
+        <artista id="a1">
+            <nom>Rosalía</nom>
+            <pais>Espanya</pais>
+            <genere>Flamenc</genere>
+        </artista>
+        <artista id="a2">
+            <nom>Daft Punk</nom>
+            <pais>França</pais>
+        </artista>
+        <artista id="a3">
+            <nom>The Weeknd</nom>
+        </artista>
+    </llista_artistes>
+
+    <llista_albumes>
+        <album id="alb1">
+            <titol>Motomami</titol>
+            <any>2022</any>
+            <artistes>
+                <artista_ref ref="a1"/>
+            </artistes>
+        </album>
+        <album id="alb2">
+            <titol>Discovery</titol>
+            <any>2001</any>
+            <artistes>
+                <artista_ref ref="a2"/>
+            </artistes>
+        </album>
+        <album id="alb3">
+            <titol>After Hours</titol>
+            <any>2020</any>
+            <artistes>
+                <artista_ref ref="a3"/>
+            </artistes>
+        </album>
+    </llista_albumes>
+
+    <llista_recomanacions_albumes>
+        <recomanacio ref="alb1"/>
+        <recomanacio ref="alb2"/>
+        <recomanacio ref="alb3"/>
+    </llista_recomanacions_albumes>
+</cataleg_musica>
